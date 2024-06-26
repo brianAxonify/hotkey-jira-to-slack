@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Axonify Slack Link Opener",
+  "version": "1.0",
+  "description": "Opens the first Slack link from axonify.slack.com on the page in a new tab.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "commands": {
+    "open_slack_link": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Open first Axonify Slack link"
+    }
+  }
+}
