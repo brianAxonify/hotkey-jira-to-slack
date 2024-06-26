@@ -4,7 +4,7 @@
 JIRA To Slack Hotkey is a Chrome extension that allows you to quickly open slack links that are on a jira ticket, saving you time and optimizing your workflow!
 
 ## Features
-- **A Hotkey to Open Slack**: When on a Jira ticket press cmd + shift + Y and the extention will find the first slack link on the page and open it. This will typiclly open the slack app directly and move you right to the conversation regarding the ticket
+- **A Hotkey to Open Slack**: When on a Jira ticket press cmd + shift + Y and the extention will find the first slack link on the page and open it. This will typically open the slack app directly and move you right to the conversation regarding the ticket
 
 ## Installation Instructions
 To install this extension in Chrome as an unpacked extension, follow these steps:
